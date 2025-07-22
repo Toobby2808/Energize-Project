@@ -207,6 +207,7 @@ img {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 350px 400px;
+    padding: 0 2.5rem;
   }
 
   .hero-content {
@@ -435,7 +436,7 @@ img {
   font-weight: 400;
   font-size: 2rem;
   line-height: 1.3;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
@@ -498,21 +499,21 @@ img {
 /* FAQ MEDIA QUERIES */
 
 @media (max-width: 500px) {
-  .faq-tabs ul li {
-    font-size: 0.8rem;
-    padding: 0.5rem 1rem;
-  }
-
   .faqs h2 {
     font-size: 1.9rem;
   }
 
+  .faq-tabs ul li {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
   .faq-question {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 
   .faq-answer {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -543,6 +544,10 @@ img {
 
 /* FOOTER MEDIA QUERY */
 @media (max-width: 550px) {
+  .footer-logo {
+    width: 150px;
+  }
+
   .footer p {
     font-size: 0.75rem;
   }
